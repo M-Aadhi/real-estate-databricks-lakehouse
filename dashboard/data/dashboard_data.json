@@ -3,7 +3,7 @@
     "title": "Real Estate Portfolio Dashboard",
     "as_of_date": "2026-09-30",
     "reporting_month": "2026-09",
-    "generated_at": "2026-10-17 17:21 UTC",
+    "generated_at": "2026-10-17 17:45 UTC",
     "data_note": "Synthetic demo data. No real company, tenant or property information.",
     "source": "Gold Delta tables (real-estate-databricks-lakehouse)"
   },
@@ -16,7 +16,7 @@
     "billed_rent": 3930737.96,
     "collected_rent": 3439451.14,
     "outstanding_rent": 491286.82,
-    "portfolio_value": 549509000.0,
+    "portfolio_value": 549604000.0,
     "portfolio_value_12m_ago": 523956000.0,
     "ttm_collected_rent": 44451296.54,
     "ttm_maintenance_cost": 2903786.29,
@@ -30,7 +30,7 @@
     "occupancy_rate": 91.49,
     "collection_rate": 87.5,
     "avg_rent_per_occupied_unit": 4061.18,
-    "portfolio_value_growth_pct": 4.88,
+    "portfolio_value_growth_pct": 4.9,
     "as_of_date": "2026-09-30",
     "reporting_month": "2026-09"
   },
@@ -182,7 +182,7 @@
     {
       "property_type": "Industrial",
       "properties": 15,
-      "portfolio_value": 224025000.0,
+      "portfolio_value": 224120000.0,
       "units": 48
     },
     {
@@ -647,8 +647,8 @@
       "collection_rate": 58.72,
       "ttm_collected_rent": 852869.02,
       "ttm_maintenance_cost": 11377.55,
-      "current_value": 12145000.0,
-      "value_growth_pct": 2.76,
+      "current_value": 12223000.0,
+      "value_growth_pct": 3.42,
       "estimated_noi": 585630.76
     },
     {
@@ -698,8 +698,8 @@
       "collection_rate": 100.0,
       "ttm_collected_rent": 796475.76,
       "ttm_maintenance_cost": 4091.36,
-      "current_value": 7830000.0,
-      "value_growth_pct": 3.98,
+      "current_value": 7847000.0,
+      "value_growth_pct": 4.21,
       "estimated_noi": 553441.67
     },
     {

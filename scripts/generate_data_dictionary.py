@@ -117,6 +117,8 @@ def table_md(lh, layer: str, table: str, description: str, entity=None) -> list[
         desc, nullable, rule = column_info(col_map or all_cols, field.name)
         nullable = field.nullable if nullable is None else nullable
         example = "" if first is None or first[field.name] is None else str(first[field.name])
+        if field.name == "source_file" and example:
+            example = ".../" + "/".join(example.split("/")[-3:])   # do not publish local machine paths
         example = (example[:40] + "…") if len(example) > 40 else example
         lines.append(f"| `{field.name}` | {field.dataType.simpleString()} | {'yes' if nullable else 'no'} | "
                      f"{desc} | {example.replace('|', '/')} | {rule} |")

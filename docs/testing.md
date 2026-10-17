@@ -26,3 +26,18 @@ batch_001 → rerun → batch_002 → rerun, snapshotting row counts and KPIs af
 ## Databricks
 CI does not touch Databricks. To validate in a workspace, run notebooks 01–05; notebook 05 asserts
 that re-running batch_002 leaves Silver unchanged, and the pipeline's DQ suites raise on failure.
+
+## Latest results
+
+Local run on Python 3.13, PySpark 4.0.1, Delta 4.0.0 (`pytest --cov=src --cov-report=term-missing tests/`):
+
+```
+tests/data_quality/test_data_quality.py .......................          [ 38%]
+tests/integration/test_dashboard_export.py .                             [ 40%]
+tests/integration/test_pipeline.py ............                          [ 60%]
+tests/unit/test_framework.py ......                                      [ 70%]
+tests/unit/test_metrics.py ........                                      [ 83%]
+tests/unit/test_silver_logic.py ..........                               [100%]
+TOTAL                                   940     81    91%
+======================== 60 passed in 487.52s (0:08:07) ========================
+```
