@@ -1,0 +1,50 @@
+# Real Estate Lakehouse configuration.
+# Select an environment with LAKEHOUSE_ENV (local | databricks) or --env. Default: local.
+# Relative paths are resolved from the repository root.
+
+project:
+  name: real-estate-databricks-lakehouse
+  owner: data-platform
+
+# Business dates used by the Gold layer. Fixed so results are reproducible.
+reporting:
+  as_of_date: "2026-09-30"        # snapshot date for occupancy, rent roll, expiries, delinquency
+  reporting_month: "2026-09"      # month used for scheduled vs collected rent
+  trend_months: 12                # months shown in the collection trend
+
+# Ordered list of source batches. Each batch is a folder of CSV files.
+# batch_001 = initial full extract, batch_002 = incremental extract (new + changed records).
+batches:
+  batch_001:
+    path: data/raw
+    effective_date: "2026-09-01"
+    entities: [properties, units, tenants, leases, payments, valuations, maintenance]
+  batch_002:
+    path: data/raw/incremental/batch_002
+    effective_date: "2026-10-01"
+    entities: [tenants, leases, payments, valuations]
+
+data_quality:
+  # A table load fails if more than this % of a batch's rows are quarantined.
+  max_quarantine_pct: 10.0
+  payment_grace_days: 5           # payments within N days of due date count as on time
+  delinquency:
+    min_outstanding_balance: 1.00 # USD; balances below this are ignored
+    min_days_past_due: 30         # tenant is delinquent if oldest open charge is older than this
+
+assumptions:
+  # Used only for the documented "estimated_noi" metric (see docs/architecture.md).
+  other_operating_expense_ratio: 0.30   # taxes, insurance, utilities, management as % of collected rent
+
+environments:
+  local:
+    storage_mode: path             # Delta tables stored as folders
+    lakehouse_root: lakehouse      # -> lakehouse/<layer>/<table>
+    log_level: INFO
+  databricks:
+    storage_mode: catalog          # Unity Catalog managed tables: <catalog>.<layer>.<table>
+    catalog: workspace             # Free Edition default catalog; production: real_estate
+    raw_volume_root: /Volumes/workspace/raw/landing   # raw CSVs are staged here
+    log_level: INFO
+
+layers: [bronze, silver, gold, quarantine, ops]

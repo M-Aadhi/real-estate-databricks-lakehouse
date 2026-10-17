@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real Estate Portfolio Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="viz-root">
+    <header class="top">
+      <div>
+        <p class="eyebrow">Portfolio reporting · Gold layer</p>
+        <h1 id="title">Real Estate Portfolio Dashboard</h1>
+        <p class="meta" id="meta">Loading data…</p>
+      </div>
+      <button id="theme" class="theme-btn" type="button" aria-label="Toggle dark mode">Dark / light</button>
+    </header>
+
+    <p class="banner" id="note" hidden></p>
+    <p class="error" id="error" hidden></p>
+
+    <section class="kpis" id="kpis" aria-label="Key performance indicators"></section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Occupancy by property</h2>
+        <p class="sub">15 lowest-occupancy properties, % of units with an active lease</p>
+        <div class="chart"><canvas id="occupancyChart" role="img" aria-label="Occupancy by property"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Revenue by property</h2>
+        <p class="sub">Top 10, collected rent over the trailing 12 months</p>
+        <div class="chart"><canvas id="revenueChart" role="img" aria-label="Revenue by property"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Portfolio value by property type</h2>
+        <p class="sub">Latest valuation as of the report date</p>
+        <div class="chart short"><canvas id="valueChart" role="img" aria-label="Portfolio value by property type"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Lease expiration timeline</h2>
+        <p class="sub">Active leases ending in the next 12 months</p>
+        <div class="chart short"><canvas id="expiryChart" role="img" aria-label="Lease expirations by month"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Rent collection trend</h2>
+        <p class="sub">Billed vs collected rent by due month</p>
+        <div class="chart short"><canvas id="trendChart" role="img" aria-label="Billed and collected rent by month"></canvas></div>
+      </article>
+      <article class="card">
+        <h2>Maintenance cost by property</h2>
+        <p class="sub">Top 10, trailing 12 months (cancelled work orders excluded)</p>
+        <div class="chart short"><canvas id="maintChart" role="img" aria-label="Maintenance cost by property"></canvas></div>
+      </article>
+    </section>
+
+    <section class="card wide">
+      <div class="table-head">
+        <div>
+          <h2>Property performance</h2>
+          <p class="sub">All properties · table view of the chart data</p>
+        </div>
+        <input id="search" type="search" placeholder="Filter by name, type or city" aria-label="Filter properties">
+      </div>
+      <div class="table-wrap">
+        <table id="propTable">
+          <thead><tr>
+            <th>Property</th><th>Type</th><th>City</th><th class="num">Units</th><th class="num">Occupancy</th>
+            <th class="num">Monthly rent</th><th class="num">Collection</th><th class="num">TTM revenue</th>
+            <th class="num">TTM maint.</th><th class="num">Value</th><th class="num">Value Δ 12m</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card wide">
+      <h2>Delinquent tenants</h2>
+      <p class="sub">Open balance with the oldest charge more than 30 days past due</p>
+      <div class="table-wrap"><table id="delTable">
+        <thead><tr><th>Tenant</th><th>Property</th><th class="num">Balance</th><th class="num">Days past due</th><th>Aging</th></tr></thead>
+        <tbody></tbody>
+      </table></div>
+    </section>
+
+    <footer class="foot" id="foot"></footer>
+  </div>
+
+  <!-- Data: dashboard_data.js works from file:// ; app.js falls back to fetching dashboard_data.json -->
+  <script src="data/dashboard_data.js"></script>
+  <script src="vendor/chart.umd.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

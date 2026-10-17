@@ -1,0 +1,7 @@
+maintenance_id,property_id,unit_id,request_date,completion_date,category,cost,status
+M1,P1,U1,2026-03-01,2026-03-03,HVAC,500.00,Completed
+M2,P1,,2026-08-15,,landscaping,300.00,Open
+M3,P2,U4,2025-06-01,2025-06-02,Plumbing,700.00,Completed
+M4,P2,U4,2026-09-10,2026-09-12,Electrical,250.00,Completed
+M5,P1,U1,2026-05-01,2026-05-02,General,100.00,Cancelled
+M6,P1,U1,2026-07-01,2026-06-30,HVAC,80.00,Completed

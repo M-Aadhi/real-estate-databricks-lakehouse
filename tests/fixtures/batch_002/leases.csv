@@ -1,0 +1,4 @@
+lease_id,tenant_id,unit_id,property_id,lease_start_date,lease_end_date,monthly_rent,security_deposit,lease_status
+L7,T5,U3,P1,2026-09-15,2027-09-14,1100.00,1100.00,Active
+L2,T2,U2,P1,2025-11-01,2027-10-20,1545.00,1500.00,Active
+L3,T3,U4,P2,2024-01-01,2028-12-31,5000.00,10000.00,Active

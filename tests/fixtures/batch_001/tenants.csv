@@ -1,0 +1,5 @@
+tenant_id,first_name,last_name,email,phone,created_date,tenant_status
+T1,Ana,Smith,ANA@EXAMPLE.COM,713-555-0001,2025-01-01,active
+T2,Ben,Jones,ben@example.com,713-555-0002,2025-06-01,Active
+T3,Cara,Lee,cara@example.com,713-555-0003,2024-01-01,Active
+T4,Dan,Ng,dan.example.com,713-555-0004,2024-01-01,Former

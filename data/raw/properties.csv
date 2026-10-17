@@ -1,0 +1,103 @@
+property_id,property_name,property_type,address,city,state,zip_code,acquisition_date,acquisition_price,status
+P0001,Copper Lofts,Multifamily,43321 Brittany Bypass,Dallas,TX,75251,2015-11-16,2441000.0,Active
+P0002,Mesquite Ridge Lofts,Multifamily,33890 Jennifer Squares,Plano,TX,75072,2014-04-24,3936000.0,Active
+P0003,Northpoint Commons,Mixed Use,79402 Peterson Drives Apt. 511,The Woodlands,TX,77366,2017-04-05,3915000.0,Active
+P0004,Bluebonnet Residences,Multifamily,55940 Herrera Lane Apt. 849,The Woodlands,TX,77388,2022-03-26,2753000.0,Active
+P0005,Uptown Square,Retail,310 Kendra Common Apt. 164,Houston,TX,77002,2020-05-18,3267000.0,Active
+P0006,Harbor Tower,Office,525 Clark Grove Apt. 928,Houston,TX,77015,2024-11-11,3990000.0,Active
+P0007,Cypress Creek Lofts,Multifamily,76483 Cameron Trail,Houston,TX,77014,2020-03-17,2769000.0,Active
+P0008,Granite Marketplace,Retail,05641 Robin Port,Dallas,TX,75221,2014-06-25,2862000.0,Active
+P0009,Summit Apartments,Multifamily,76724 John Points Suite 969,The Woodlands,TX,77303,2021-06-16,1486000.0,Active
+P0010,Colorado River Distribution Hub,Industrial,3287 Katelyn Wall Apt. 226,Austin,TX,78711,2012-04-19,11836000.0,Active
+P0011,Live Oak Marketplace,Retail,6978 Maddox Wall,San Antonio,TX,78271,2014-11-16,2898000.0,Active
+P0012,Ironwood Flats,Multifamily,184 Rodriguez Mews,San Antonio,TX,78294,2015-09-25,1921000.0,Active
+P0013,Midtown Tower,Office,0482 Monica Hills,Katy,TX,77416,2019-09-15,5885000.0,Active
+P0014,Bayou Bend Plaza,Office,52880 Burns Creek,Houston,TX,77010,2021-04-01,7695000.0,Active
+P0015,Live Oak Shopping Center,Retail,3039 Christopher Oval Apt. 822,Houston,TX,77031,2017-02-17,2025000.0,Active
+P0016,Harbor Plaza,Office,248 Brandt Plains Apt. 465,San Antonio,TX,78261,2023-10-19,7456000.0,Active
+P0017,Eastside Plaza,Office,713 Caleb Brooks Apt. 930,San Antonio,TX,78256,2013-02-22,6368000.0,Active
+P0018,Pecan Grove District,Mixed Use,031 Michele Cliffs,Austin,TX,78744,2012-07-24,2529000.0,Active
+P0019,Prairie View Distribution Hub,Industrial,7382 Sanchez Mountains,Houston,TX,77055,2020-08-05,3515000.0,Active
+P0020,Live Oak Flats,Multifamily,11656 Owens Stream Apt. 106,San Antonio,TX,78207,2024-09-04,1389000.0,Active
+P0021,Cypress Creek Apartments,Multifamily,33387 Robert Harbors Suite 317,Fort Worth,TX,76153,2024-04-06,2626000.0,Active
+P0022,Midtown Apartments,Multifamily,80132 Tucker Forest,Dallas,TX,75250,2014-07-01,3500000.0,Active
+P0023,Willow Bend Lofts,Multifamily,26064 Mitchell Square Suite 234,Frisco,TX,75072,2018-12-24,1999000.0,Active
+P0024,Prairie View Crossing,Mixed Use,98050 Breanna Parkway,San Antonio,TX,78295,2015-01-19,2870000.0,Active
+P0025,Pecan Grove Logistics Center,Industrial,81219 Emma Freeway,The Woodlands,TX,77368,2021-08-17,18483000.0,Active
+P0026,Riverwalk Plaza,Office,93990 Robert Prairie Suite 435,Phoenix,AZ,85087,2013-10-03,3144000.0,Active
+P0027,Copper Distribution Hub,Industrial,6247 Hickman Cliffs,Austin,TX,78780,2021-10-02,10164000.0,Active
+P0028,Copper Village,Multifamily,9911 William Curve,Plano,TX,75086,2017-05-07,2696000.0,Active
+P0029,Midtown Distribution Hub,Industrial,35427 Carr Valley Apt. 841,Dallas,TX,75259,2022-11-10,11254000.0,Active
+P0030,Live Oak Apartments,Multifamily,1182 Campbell Fords,The Woodlands,TX,77313,2019-10-19,2185000.0,Active
+P0031,Brazos Residences,Multifamily,48740 Cynthia Village Suite 005,Dallas,TX,75248,2017-02-08,1851000.0,Active
+P0032,Juniper Office Park,Office,427 Hoffman Creek,Austin,TX,78785,2022-09-10,5819000.0,Active
+P0033,Brazos Office Park,Office,280 Aguilar Drive,Sugar Land,TX,77420,2013-12-18,8040000.0,Active
+P0034,Galleria Marketplace,Retail,04505 Evelyn Shores Apt. 586,Fort Worth,TX,76134,2022-11-28,3926000.0,Active
+P0035,Pecan Grove Shopping Center,Retail,22602 Patton Loop,Dallas,TX,75236,2022-07-27,2352000.0,Under Renovation
+P0036,Westpark Lofts,Multifamily,2160 Walker Viaduct,Austin,TX,78771,2014-12-15,2076000.0,Active
+P0037,Bluebonnet District,Mixed Use,4330 Raymond Harbors Apt. 458,Fort Worth,TX,76105,2023-03-18,1948000.0,Active
+P0038,Mesquite Ridge Business Center,Office,850 Natalie Green Apt. 940,Fort Worth,TX,76147,2014-01-10,3116000.0,Active
+P0039,Lone Star Industrial Park,Industrial,655 Obrien Pass,Frisco,TX,75086,2015-11-08,12703000.0,Active
+P0040,Eastside Village,Multifamily,9340 Smith Valley,Frisco,TX,75021,2023-03-08,2536000.0,Active
+P0041,Eastside Apartments,Multifamily,6159 Alvarado Crossing,Frisco,TX,75053,2014-12-11,1972000.0,Active
+P0042,Redbud Lofts,Multifamily,465 Terry Plaza Apt. 366,Round Rock,TX,78649,2014-12-04,2616000.0,Active
+P0043,Oak Hollow Residences,Multifamily,946 Kevin Fords,Round Rock,TX,78630,2019-06-10,1644000.0,Active
+P0044,Midtown Lofts,Multifamily,957 Ramos Forest Suite 214,Plano,TX,75036,2016-02-25,2768000.0,Active
+P0045,Harbor Lofts,Multifamily,34332 Brandon Mountains Apt. 769,San Antonio,TX,78223,2012-02-09,2154000.0,Active
+P0046,Lone Star Shopping Center,Retail,676 Dylan Spurs,Atlanta,GA,30394,2021-07-12,3564000.0,Active
+P0047,Granite Shopping Center,Retail,63287 Angela Vista,Austin,TX,78733,2018-10-07,3161000.0,Under Renovation
+P0048,Summit Marketplace,Retail,2788 Dodson Mills,Austin,TX,78786,2017-07-03,3425000.0,Active
+P0049,Bluebonnet Lofts,Multifamily,727 Green Gateway Suite 873,Plano,TX,75053,2020-05-22,2381000.0,Active
+P0050,Meridian Residences,Multifamily,1434 Flores Plains Apt. 223,Katy,TX,77449,2015-07-22,3346000.0,Active
+P0051,Juniper Crossing,Mixed Use,231 Russell Plains Suite 603,Sugar Land,TX,77401,2018-09-27,2667000.0,Active
+P0052,Silverleaf Tower,Office,9096 Smith Knoll Suite 668,Dallas,TX,75287,2019-08-15,7258000.0,Active
+P0053,Cedar Hill Apartments,Multifamily,3467 Paul Skyway,San Antonio,TX,78282,2016-09-22,1625000.0,Active
+P0054,Redbud Tower,Office,272 Rebecca Ramp Apt. 162,Houston,TX,77004,2015-04-05,2532000.0,Under Renovation
+P0055,Juniper Apartments,Multifamily,04653 Murphy Trace Suite 464,Atlanta,GA,30374,2019-07-21,3450000.0,Active
+P0056,Canyon Flats,Multifamily,0805 Debra Tunnel,Katy,TX,77489,2015-03-21,3290000.0,Under Renovation
+P0057,Magnolia Business Center,Office,33092 David Skyway,The Woodlands,TX,77390,2015-03-26,4560000.0,Active
+P0058,Redbud Shopping Center,Retail,374 Jackson Rest,Houston,TX,77060,2019-03-26,2662000.0,Active
+P0059,Ironwood Lofts,Multifamily,41904 Sanders Stravenue,Atlanta,GA,30393,2024-08-20,2798000.0,Active
+P0060,Meridian Square,Retail,93149 Laura Port,Austin,TX,78761,2014-12-28,1746000.0,Active
+P0061,Trinity Village,Multifamily,8651 Smith Manor,The Woodlands,TX,77336,2019-11-08,2302000.0,Active
+P0062,Galleria Lofts,Multifamily,65726 Jessica Run Suite 987,Katy,TX,77420,2020-02-05,2887000.0,Active
+P0063,Lakeside Apartments,Multifamily,9453 Joshua Mission Apt. 799,Katy,TX,77470,2018-07-11,3184000.0,Active
+P0064,Eastside Square,Retail,0752 Lewis Union Suite 549,Houston,TX,77003,2024-10-23,2429000.0,Active
+P0065,Uptown Commerce Center,Industrial,083 John Lodge Suite 837,The Woodlands,TX,77397,2012-06-10,6970000.0,Active
+P0066,Harbor Village,Multifamily,0143 Holt Inlet Suite 788,Sugar Land,TX,77435,2015-08-08,2425000.0,Active
+P0067,Galleria Commerce Center,Industrial,8557 Parker Fort Apt. 351,Houston,TX,77060,2023-03-27,9518000.0,Active
+P0068,Harbor Apartments,Multifamily,37498 Hooper Village,Atlanta,GA,30385,2018-10-19,1921000.0,Under Renovation
+P0069,Westpark Commons,Mixed Use,3524 Jean Crossroad,Plano,TX,75049,2014-01-09,3479000.0,Active
+P0070,Galleria Flats,Multifamily,08427 Monique Ports Suite 777,San Antonio,TX,78211,2016-07-09,1848000.0,Active
+P0071,Pecan Grove Lofts,Multifamily,04711 Vasquez Ports Apt. 229,The Woodlands,TX,77384,2015-11-03,2514000.0,Under Renovation
+P0072,Redbud Station,Mixed Use,31869 Kimberly Light Suite 749,Houston,TX,77031,2012-10-05,3340000.0,Active
+P0073,Copper Plaza,Office,9909 Stacey Fords Apt. 412,Plano,TX,75099,2019-12-09,4633000.0,Active
+P0074,Bluebonnet Station,Mixed Use,81206 Norris Mountains,Fort Worth,TX,76104,2016-02-19,3625000.0,Active
+P0075,Uptown Business Center,Office,34471 Sandra Turnpike Apt. 618,Fort Worth,TX,76176,2023-04-03,5058000.0,Active
+P0076,Magnolia Industrial Park,Industrial,242 Brian Turnpike,Plano,TX,75016,2022-10-26,8007000.0,Active
+P0077,Lone Star Lofts,Multifamily,947 Taylor Hollow Suite 488,Fort Worth,TX,76148,2020-07-22,2696000.0,Active
+P0078,Cypress Creek Square,Retail,1906 Munoz Burg Apt. 399,Plano,TX,75047,2019-02-14,3491000.0,Active
+P0079,Mesquite Ridge Commerce Center,Industrial,490 Thomas Run,Frisco,TX,75084,2014-12-17,11327000.0,Active
+P0080,Harbor Commerce Center,Industrial,2967 Theodore Lodge Suite 512,Frisco,TX,75094,2019-07-27,6445000.0,Active
+P0081,Trinity Square,Retail,7468 Shawn Island Suite 516,Austin,TX,78779,2015-08-19,3480000.0,Active
+P0082,Canyon Lofts,Multifamily,876 Jacob Lake,Austin,TX,78746,2014-08-07,2965000.0,Active
+P0083,Meridian Apartments,Multifamily,703 Dunn Heights Suite 710,Austin,TX,78731,2020-04-03,4077000.0,Active
+P0084,Redbud Commerce Center,Industrial,248 Andrea Course,San Antonio,TX,78258,2022-12-16,2473000.0,Active
+P0085,Oak Hollow Commons,Mixed Use,71274 Perry Orchard,Houston,TX,77085,2023-04-10,3189000.0,Active
+P0086,Summit Lofts,Multifamily,78263 Michelle Harbor Suite 584,San Antonio,TX,78243,2018-12-18,2038000.0,Active
+P0087,Colorado River Tower,Office,4997 Sean Orchard,San Antonio,TX,78225,2015-02-24,3863000.0,Active
+P0088,Stonebridge Distribution Hub,Industrial,8867 Kane Square Apt. 963,The Woodlands,TX,77336,2015-12-16,14470000.0,Active
+P0089,Summit Village,Multifamily,57662 Hanna Crossroad Suite 171,Atlanta,GA,30325,2016-02-27,3688000.0,Active
+P0090,Colorado River Shopping Center,Retail,26217 Morgan Square Suite 158,Austin,TX,78736,2023-09-05,4085000.0,Under Renovation
+P0091,Sabine Distribution Hub,Industrial,7809 Jimmy Spur Suite 316,Houston,TX,77002,2022-08-04,6493000.0,Active
+P0092,Southgate Lofts,Multifamily,172 Berger Cape,San Antonio,TX,78262,2014-01-09,1385000.0,Active
+P0093,Canyon Apartments,Multifamily,45562 Amanda Port Apt. 221,Houston,TX,77007,2021-11-22,2305000.0,Active
+P0094,Colorado River Apartments,Multifamily,379 Jesse Route Suite 740,Frisco,TX,75098,2015-02-18,2535000.0,Active
+P0095,Juniper Residences,Multifamily,8217 Huerta Hills Suite 474,Fort Worth,TX,76158,2024-09-13,1792000.0,Active
+P0096,Silverleaf Flats,Multifamily,7136 Andrews Squares,Dallas,TX,75208,2016-10-20,2876000.0,Active
+P0097,Lakeside Station,Mixed Use,64090 Wall Heights Apt. 953,The Woodlands,TX,77321,2016-11-03,3699000.0,Active
+P0098,Eastside Flats,Multifamily,421 Kyle Mill,Fort Worth,TX,76138,2023-10-16,2193000.0,Under Renovation
+P0099,Sabine Flats,Multifamily,521 Murphy Mall,Dallas,TX,75234,2013-11-08,2347000.0,Active
+P0100,Prairie View Commerce Center,Industrial,28588 Rivas Glens,Plano,TX,75083,2013-09-08,3627000.0,Active
+P0065,Uptown Commerce Center,Industrial,083 John Lodge Suite 837,The Woodlands,TX,77397,2012-06-10,6970000.0,Active
+P0091,Sabine Distribution Hub,Industrial,7809 Jimmy Spur Suite 316,Houston,TX,77002,2022-08-04,6493000.0,Active

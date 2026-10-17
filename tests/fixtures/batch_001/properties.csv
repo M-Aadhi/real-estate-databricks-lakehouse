@@ -1,0 +1,4 @@
+property_id,property_name,property_type,address,city,state,zip_code,acquisition_date,acquisition_price,status
+P1,Alpha Apartments,Multifamily,1 Main St,Houston,tx,77001,2020-01-15,1000000.00,Active
+P2,Beta Plaza,Office,2 Main St,Dallas,TX,75201,2019-05-01,2000000.00,Active
+P2,Beta Plaza,Office,2 Main St,Dallas,TX,75201,2019-05-01,2000000.00,Active

@@ -1,0 +1,6 @@
+valuation_id,property_id,valuation_date,property_value,valuation_method
+V1,P1,2025-06-30,1000000.00,Income Approach
+V2,P1,2026-06-30,1100000.00,Income Approach
+V3,P2,2025-09-30,2000000.00,Sales Comparison
+V4,P2,2026-06-30,1900000.00,Sales Comparison
+V5,P1,2026-01-01,0.00,Broker Opinion of Value

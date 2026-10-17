@@ -1,0 +1,6 @@
+unit_id,property_id,unit_number,bedrooms,bathrooms,square_feet,market_rent,unit_status
+U1,P1,101,1,1.0,700,1000.00,Occupied
+U2,P1,102,2,2.0,900,1500.00,Occupied
+U3,P1,103,1,1.0,700,1000.00,Vacant
+U4,P2,Suite 100,0,1.0,2000,5000.00,Occupied
+U9,P9,999,1,1.0,700,900.00,Vacant

@@ -1,0 +1,5 @@
+payment_id,lease_id,tenant_id,property_id,payment_date,payment_due_date,amount_due,amount_paid,payment_status,payment_method
+PMT4,L2,T2,P1,2026-09-12,2026-09-01,1500.00,1500.00,Late,ACH
+PMT10,L7,T5,P1,2026-09-15,2026-09-15,1100.00,1100.00,Paid,ACH
+PMT2,L1,T1,P1,2026-09-03,2026-09-01,1000.00,1000.00,Paid,ach
+PMT11,L7,T5,P1,2026-09-16,2026-09-15,1100.00,-1.00,Paid,ACH

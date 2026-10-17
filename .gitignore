@@ -1,0 +1,22 @@
+# Local lakehouse output (regenerate with: python -m src.pipeline --all)
+lakehouse/
+spark-warehouse/
+metastore_db/
+derby.log
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+# Secrets
+.env
+*.pem
+.databrickscfg
+# Notebooks / OS
+.ipynb_checkpoints/
+.DS_Store
